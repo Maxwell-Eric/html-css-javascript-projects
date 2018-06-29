@@ -1,0 +1,128 @@
+:root {
+    --blue: #1111ff;
+    --orange: #ff9922;
+    /*#ff9922; */
+    --green: #77ff44;
+    /*#77ff44*/
+}
+
+#body {
+    text-align: center;
+    margin: 0;
+    align-content: center;
+    min-width: 1012;
+    min-height: 612;
+}
+
+div {
+    height: calc(50% - 6px);
+    width: calc(50% - 6px);
+    min-width: 500px;
+    min-height: 250px;
+    border: 3px solid #666;
+    float: left;
+}
+
+h1 {
+    margin: 0;
+    height: 12%;
+    background: white;
+    color: #555;
+    /* text-shadow: black 0.1em 0.1em 0.2em; */
+}
+
+button {
+    height: 10%;
+    width: 25%;
+    float: left;
+    margin: 0px;
+}
+
+button:hover {
+    background: #aaa;
+}
+
+#div1 {
+    background: white;
+    float: left;
+}
+
+#canvas {
+    width: 100%;
+    height: 78%;
+    background: var(--blue);
+}
+
+#div2 {
+    background: white;
+    float: left;
+}
+
+#p2 {
+    margin: 0;
+    vertical-align: middle;
+    font-size: 80%;
+    height: calc(8% - 2px);
+    float: left;
+    border: solid 1px;
+    padding: .5%;
+    width: 35%;
+    background: #eee;
+}
+
+#ballsButt {
+    width: calc(28% - 4px);
+    height: 10%;
+}
+
+#canvas1 {
+    background: var(--orange);
+    width: 100%;
+    height: 78%;
+}
+
+
+/* #ballsHeading {
+    color: var(--orange);
+} */
+
+
+/* #div3 {
+    float: right;
+    width: 25%;
+    height: 25%;
+} */
+
+#div4 {
+    float: left;
+    background: var(--green);
+    text-align: center;
+}
+
+#p4a {
+    margin: 0;
+    padding: 1%;
+    width: calc(98%);
+    font-size: 24px;
+    height: 20%;
+    border-top: solid 1px;
+    background: none;
+}
+
+#fibOut {
+    width: 98%;
+    font-size: 24px;
+    background: none;
+    border: none;
+    margin: 2%;
+    vertical-align: middle;
+    height: 10%;
+    float: none;
+    padding: 0;
+}
+
+#recursiveB {
+    height: 55%;
+    width: 15%;
+    float: none;
+}
